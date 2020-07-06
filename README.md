@@ -16,9 +16,8 @@ the script are divided in 5 parts
 #1 load the test dataset and the train data set, then this datasets are combined. 
 #2 load the deatures names, create an index with the variables who beggin with mean or std. the mean standard deviation variables are extracted of the tydi data outpout in #1
 #3 load the activities an his respective id. convert the activities to character. load the activities id of train and test dataset, then this are combined in a vector called act_test_train. finally, a For function, find for each activity their id on the vector act_test_train creating a index vector, then according to that index put the names of each varible in a new column of the dataset called activities.
-#4 Assign the variables names to each one of the columns in the sata set.
-#5 create a new dataset with the average of each variable for each subject an d each activity.
-
+#4 Assign the variables names to each one of the columns in the sata set. the file tidydata.txt is generated.
+#5 create a new dataset with the average of each variable for each subject and each activity. the file tidydata2.txt is generated.
 
 
 ==================================================================
